@@ -4,7 +4,7 @@ LABEL maintainer="Linux kernel travel"
 RUN set -ex; \
   apt-get update -y; \
   DEBIAN_FRONTEND=noninteractive \
-  apt install -y bison build-essential cmake flex git libedit-dev  libllvm11 llvm-11-dev libclang-11-dev python zlib1g-dev libelf-dev libfl-dev python3-distutils
+  apt install -y bison build-essential cmake flex git libedit-dev  libllvm11 llvm-11-dev libclang-11-dev python3 zlib1g-dev libelf-dev libfl-dev python3-distutils
 
 COPY installbcc.sh /
 RUN set -ex; \

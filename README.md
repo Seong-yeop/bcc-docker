@@ -1,6 +1,3 @@
-[bcc-docker](https://hub.docker.com/r/szp2030/bcc) is provided for user to try out [bcc](https://github.com/iovisor/bcc).
-采用bcc源码在docker中编译安装bcc，使用Ubuntu 20.04.3 LTS作为基础镜像
-相比二进制文件安装的bcc，此版本较新。
 From your host shell:
 ```bash
 sudo docker run -it  \
